@@ -7,21 +7,44 @@
 }
 
 :root{
+    --color-primary: #4263EB;
     --color-grey-1: #212529;
     --color-grey-2: #495057;
-    --color-white-fixed: #ffffff;
+    --color-grey-3: #868E96;
+    --color-grey-4: #DEE2E6;
+    --color-white-fixed:#ffffff;
     --radius-1: 0.25rem;
     --font-family-1: "Inter", sans-serif;
+    --title1-Font-weight: 700;
+    --title1-Font-Size: 28;
+    --title1-Line-Height: 40;
+    --title2-Font-weight: 600;
+    --title2-Font-Size: 20;
+    --title2-Line-Height: 24;
+    --text1-Font-weight: 400;
+    --text1-Font-Size: 16;
+    --text1-Line-Height: 28;
+    --text2-Font-weight: 400;
+    --text2-Font-Size: 14;
+    --text2-Line-Height: 16;
+    --text3-Font-weight: 400;
+    --text3-Font-Size: 12;
+    --text3-Line-Height: 16;
+
 }
 
 body{
     font-family: var(--font-family-1);
+    background-color: var(--color-grey-4);
 }
 
 .container{
-    max-width: 1200px;
+    width: 75rem;
     margin: 0 auto;
-    padding: 0 1rem;
+}
+
+button{
+    cursor: pointer;
 }
 
 ul{

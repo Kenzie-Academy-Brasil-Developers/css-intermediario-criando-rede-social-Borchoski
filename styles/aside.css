@@ -1,0 +1,21 @@
+aside{
+    padding: 1.875rem 1.25rem;
+    width: 30rem;
+    position: fixed;
+    right: 320px;
+}
+aside li{
+    margin: 1rem 0;
+}
+aside li button{
+    position: absolute;
+    right: 1.25rem;
+    padding: 0.125rem 0.5rem;
+    border-radius: 0.25rem;
+    border: solid 0.125rem var(--color-grey-3);
+}
+aside li button:hover{
+    background-color: var(--color-primary);
+    color: var(--color-white-fixed);
+    transition: 0.5s;
+}

@@ -1,0 +1,78 @@
+.flex{
+    display: flex;
+}
+.align{
+    align-items: center;
+}
+.justifyCenter{
+    justify-content: center;
+}
+.widthFull{
+    width: 100%;
+}
+.heigthFull{
+    height: 100%;
+}
+.radius4{
+    border-radius: 0.25rem;
+}
+.gap8{
+    gap: 0.5rem;
+}
+.column{
+    flex-direction: column;
+}
+.relative{
+    position: relative;
+}
+.gap16{
+    gap: 1rem;
+}
+.gap32{
+    gap: 2rem;
+}
+.marginTop32{
+    margin-top: 2rem;
+}
+.marginTop64{
+    margin-top: 4rem;
+}
+.marginBot32{
+    margin-bottom: 2rem;
+}
+.padding4px{
+    padding: 0.25rem;
+}
+.padding8px{
+    padding: 0.5rem;
+}
+.backGrey3{
+    background-color: var(--color-grey-3);
+}
+.title1{
+    font-weight: var(--title1-Font-weight);
+    font-size: var(--title1-Font-Size);
+    line-height: var(--title1-Line-Height);
+}
+.title2{
+    font-weight: var(--title2-Font-weight);
+    font-size: var(--title2-Font-Size);
+    line-height: var(--title2-Line-Height);
+}
+.text1{
+    font-weight: var(--text1-Font-weight);
+    font-size: var(--text1-Font-Size) ;
+    line-height: var(--text1-Line-Height);
+}
+.text2{
+    font-weight: var(--text2-Font-weight);
+    font-size: var(--text2-Font-Size);
+    line-height: var(--text2-Line-Height);
+}
+.text3{
+    font-weight: var(--text3-Font-weight);
+    font-size: var(--text3-Font-Size);
+    line-height: var(--text3-Line-Height);
+}
+
+
