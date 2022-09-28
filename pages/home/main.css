@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: space-between;
     width: 1200px;
+    position: relative;
 }
 .divPosts{
     width: 650px;
@@ -66,9 +67,6 @@
     border: none;
     background-color: var(--color-primary);
     color: var(--color-white-fixed);
-    position: absolute;
-    bottom: 0;
-    right: 0;
 }
 .cardUser2{
     margin-top: 1.875rem;

@@ -1,7 +1,8 @@
 aside{
     padding: 1.875rem 1.25rem;
     width: 30rem;
-    
+    position: sticky;
+    top: 100px;
 }
 aside li{
     margin: 1rem 0;

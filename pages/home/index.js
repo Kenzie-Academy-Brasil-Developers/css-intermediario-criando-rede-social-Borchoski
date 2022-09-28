@@ -5,7 +5,7 @@ const divModal = document.getElementById("divModal")
 
 
     
-function criarModal(){
+function criarModal(posts){
 
     for(let i = 0; i < posts.length; i++){
         let div = document.createElement("div")
@@ -56,7 +56,7 @@ function criarModal(){
 }
 
 
-criarModal()
+criarModal(posts)
 
 const modal1 = document.getElementById("1")
 const modal2 = document.getElementById("2")
