@@ -1,8 +1,7 @@
 aside{
     padding: 1.875rem 1.25rem;
     width: 30rem;
-    position: fixed;
-    right: 320px;
+    
 }
 aside li{
     margin: 1rem 0;
@@ -13,6 +12,9 @@ aside li button{
     padding: 0.125rem 0.5rem;
     border-radius: 0.25rem;
     border: solid 0.125rem var(--color-grey-3);
+    width: 68px;
+    height: 28px;
+    padding: 0px 12px;
 }
 aside li button:hover{
     background-color: var(--color-primary);

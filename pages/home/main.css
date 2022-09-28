@@ -6,12 +6,23 @@
     height: 100%;
     border-radius: 0 0 0.5rem 0.5em;
     display: flex;
-
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .containerMain{
     padding: 1.875rem 1.25rem;
-    max-width: 60%;
-    
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+}
+.divPosts{
+    width: 650px;
+}
+.user{
+    width: 650px;
 }
 .cardUser{
     max-width: 100%;
@@ -29,12 +40,16 @@
 }
 .form{
     margin-top: 1.875rem;
+    height: 221px;
+    align-items: flex-end;
 }
 .inputUser{
     border: solid var(--color-grey-3) 2px;
     padding: 1rem 1.25rem;
     font-weight: bolder;
     word-spacing: 2px;
+    width: 100%;
+    font-family: var(--font-family-1);
 }
 .inputUser2{
     border: solid var(--color-grey-3) 2px;
@@ -42,6 +57,8 @@
     font-weight: bolder;
     word-spacing: 0.125rem;
     height: 6.25rem;
+    width: 100%;
+    font-family: var(--font-family-1);
 }
 .butMain{
     width: 4.313rem;
@@ -49,6 +66,9 @@
     border: none;
     background-color: var(--color-primary);
     color: var(--color-white-fixed);
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .cardUser2{
     margin-top: 1.875rem;
@@ -60,6 +80,9 @@
 .butPost{
     background-color: var(--color-grey-1);
     color: var(--color-white-fixed);
+    width: 92px;
+    height: 38px;
+    padding: 0px 12px;
 }
 
 .modalTotal{
@@ -114,6 +137,10 @@
 }
 .p2{
     font-size: 1rem;
+}
+.imgCoracao img{
+    width: 25px;
+    margin-right: 10px;
 }
 
 @media(max-width: 425px){
